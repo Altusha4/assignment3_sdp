@@ -1,4 +1,5 @@
 package weather.api;
 
-public class CelsiusWeatherService {
+public interface CelsiusWeatherService {
+    double getTempC(String city)
 }
